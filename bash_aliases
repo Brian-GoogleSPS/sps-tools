@@ -16,7 +16,7 @@ alias gitnew="git checkout main && git pull && git checkout -b" # <branch name>
 alias gitamend="git commit --amend --no-edit"
 alias gitammend="git amend"
 alias gitpush="git push"
-alias gitdelete="git branch -D" # <branch name>
+alias gitdelete="git checkout main; git branch -D" # <branch name>
 
 # Flutter
 export PATH="$PATH:$HOME/flutter/bin"
