@@ -9,6 +9,9 @@ alias vim-alias="vim $HOME/sps-tools/bash_aliases"
 # Editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+alias code-server-setup="curl -fsSL https://code-server.dev/install.sh | sh"
+alias code-server="/usr/bin/code-server"
+alias code-server-psw="less ~/.config/code-server/config.yaml"
 
 # Git Commands
 alias gitlog="git log --oneline -5"
